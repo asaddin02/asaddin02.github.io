@@ -127,6 +127,18 @@
     scrollbar-width: thin;
   }
 
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p,
+  figcaption,
+  dd {
+    text-wrap: pretty;
+  }
+
   a {
     color: var(--accent);
     text-underline-offset: 3px;
